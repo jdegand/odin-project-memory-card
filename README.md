@@ -17,9 +17,9 @@
 
 [Live Link](https://jdegand.github.io/odin-project-memory-card)
 
-![](odin-project-memory-card-homepage.png)
-![](odin-project-memory-card-best-score.png)
-![](odin-project-memory-card-new-high-score.png)
+![](./odin-project-memory-game-homepage.png)
+![](./odin-project-memory-game-best-score.png)
+![](./odin-project-memory-game-new-high-score.png)
 
 ### Built With
 
