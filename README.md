@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+<h1 align="center">Memory Card</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+   Solution for a challenge from  <a href="https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/memory-card" target="_blank">theodinproject.com</a>.
+</div>
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Built With](#built-with)
+  - [Thoughts](#thoughts)
+- [Features](#features)
+- [Improvements](#improvements)
+- [Useful Resources](#useful-resources)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Live Link](https://jdegand.github.io/odin-project-memory-card)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![](odin-project-memory-card-homepage.png)
+![](odin-project-memory-card-best-score.png)
+![](odin-project-memory-card-new-high-score.png)
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
 
-### `npm run build`
+### Thoughts
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- I didn't use images because I didn't want to download and compress many images.  
+- Obviously, I could have used an api but many apis don't have fields that have links to images.
+- I used an array of function names instead and I played off the DRY ethos.  
+- In the game's logic, you add the target of a click to an array and then check the array for the added value.  
+- If the added value is already in the array, the game is over. Else you +1 to the score.
+ 
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The [challenge](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/memory-card) was to build a memory game in React.  The memory game ends when you select something you had selected prior.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Improvements
 
-### `npm run eject`
+- Styling
+- Accessibility
+- Local Storage for high scores
+- Add cursor for choices or highlighting
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Useful Resources
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Wikipedia](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) - Dont repeat yourself
+- [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) - Object and its methods
